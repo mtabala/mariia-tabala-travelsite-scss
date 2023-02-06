@@ -42,4 +42,44 @@
   margin-left: 8rem;
 }
 
-/* Section - Recommendations *//*# sourceMappingURL=main.css.map */
+/* Section - Recommendations */
+.recommendations {
+  padding: 3rem 0rem;
+}
+.recommendations__header {
+  color: #335576;
+  margin: 0;
+  padding-left: 7rem;
+}
+.recommendations__list {
+  display: flex;
+  justify-content: center;
+}
+.recommendations .recommendation__card {
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  text-decoration: none;
+  background-size: cover;
+  width: 15.31rem;
+  height: 23.12rem;
+  color: #FFFFFF;
+  font-size: 1.37rem;
+  margin: 2rem 1.1rem 2rem;
+  border: 0.062rem solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.312rem;
+  box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
+}
+.recommendations .recommendation__card--hawaii {
+  background-image: url(../assets/images/hawaii.jpg);
+}
+.recommendations .recommendation__card--iceland {
+  background-image: url(../assets/images/iceland.jpg);
+}
+.recommendations .recommendation__card--greece {
+  background-image: url(../assets/images/greece.jpg);
+}
+.recommendations .recommendation__title {
+  margin: 0;
+  padding: 0rem 1rem 1rem 0rem;
+}/*# sourceMappingURL=main.css.map */

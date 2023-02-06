@@ -42,3 +42,46 @@
     }
 }
 /* Section - Recommendations */
+.recommendations {
+    padding:3rem 0rem;
+
+    &__header {
+        color:$secondary-color;
+        margin:0;
+        padding-left:7rem;
+    }
+    &__list {
+        display:flex;
+        justify-content: center;
+    }
+    .recommendation {
+        &__card {
+            display:flex;
+            align-items:flex-end;
+            justify-content:end;
+            text-decoration:none;
+            background-size:cover; 
+            width:15.31rem;
+            height:23.12rem;    
+            color:$background-secondary-color;
+            font-size:1.37rem;
+            margin:2rem 1.1rem 2rem;
+            border:0.062rem solid rgba(0, 0, 0, 0.20);
+            border-radius:0.312rem;
+            box-shadow:0px 0.25rem 0.25rem rgba(0, 0, 0, 0.20);
+        }
+        &__card--hawaii {
+            background-image:url(../assets/images/hawaii.jpg);
+        }
+        &__card--iceland {
+            background-image:url(../assets/images/iceland.jpg);
+        }
+        &__card--greece {
+            background-image:url(../assets/images/greece.jpg);
+        }
+        &__title {
+            margin:0;
+            padding:0rem 1rem 1rem 0rem;
+        }
+    }
+}
