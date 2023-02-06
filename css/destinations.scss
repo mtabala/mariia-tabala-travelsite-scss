@@ -1,0 +1,59 @@
+@use './_partials/variables' as *;
+/* MAIN - Destination */
+.destination {
+    background-size:cover;
+    background-position: center;
+    margin-top:2.2rem;
+    height:43rem;
+
+    &--hawaii {
+        background-image:url(../assets/images/hawaii.jpg);
+    }
+    &--iceland {
+        background-image:url(../assets/images/iceland.jpg);
+    }
+    &--greece {
+        background-image:url(../assets/images/greece.jpg);
+    }
+    &__header {
+        color:$background-secondary-color;
+        font-size:4.25rem;
+        margin:0rem;
+        padding:4.8rem 0rem 0rem 6.8rem;
+    }
+    &__itinerary {
+        display:flex;
+        justify-content: center;
+        padding:4rem 0rem 0rem 3rem;
+    }
+}
+/* MAIN - Itinerary Card */
+.itinerary-card {
+    background-color:$background-secondary-color;
+    text-align:center;
+    margin-right:2rem;
+    width:16.25rem;
+    height:22.18rem;
+    padding:0.8rem 1rem;
+    border-radius:0.37rem;
+
+    &-title {
+        border-bottom:0.125rem solid $tertiary-color;
+        margin:0;
+    }
+    &-list {
+        list-style-type: none; 
+        margin:0;
+        padding:0;
+    }
+    &-list-item {
+        background-color:#FEFAF5;
+        padding:0.9rem 1rem;
+        margin-top:1rem;
+    }
+    &-list-item {
+        background-color:$background-primary-color;
+        padding:0.9rem 1rem;
+        margin-top:1rem;
+    }
+}

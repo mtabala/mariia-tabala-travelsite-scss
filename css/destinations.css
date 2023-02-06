@@ -1,1 +1,59 @@
-/*# sourceMappingURL=destinations.css.map */
+/* Colors */
+/* Fonts */
+/* MAIN - Destination */
+.destination {
+  background-size: cover;
+  background-position: center;
+  margin-top: 2.2rem;
+  height: 43rem;
+}
+.destination--hawaii {
+  background-image: url(../assets/images/hawaii.jpg);
+}
+.destination--iceland {
+  background-image: url(../assets/images/iceland.jpg);
+}
+.destination--greece {
+  background-image: url(../assets/images/greece.jpg);
+}
+.destination__header {
+  color: #FFFFFF;
+  font-size: 4.25rem;
+  margin: 0rem;
+  padding: 4.8rem 0rem 0rem 6.8rem;
+}
+.destination__itinerary {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0rem 0rem 3rem;
+}
+
+/* MAIN - Itinerary Card */
+.itinerary-card {
+  background-color: #FFFFFF;
+  text-align: center;
+  margin-right: 2rem;
+  width: 16.25rem;
+  height: 22.18rem;
+  padding: 0.8rem 1rem;
+  border-radius: 0.37rem;
+}
+.itinerary-card-title {
+  border-bottom: 0.125rem solid #000000;
+  margin: 0;
+}
+.itinerary-card-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.itinerary-card-list-item {
+  background-color: #FEFAF5;
+  padding: 0.9rem 1rem;
+  margin-top: 1rem;
+}
+.itinerary-card-list-item {
+  background-color: #FEFAF5;
+  padding: 0.9rem 1rem;
+  margin-top: 1rem;
+}/*# sourceMappingURL=destinations.css.map */
