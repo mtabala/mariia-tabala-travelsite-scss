@@ -1,1 +1,79 @@
-/*# sourceMappingURL=form.css.map */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Main - Hero, Radio Button, Inputs and Submit button */
+.hero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../assets/images/form.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 43rem;
+  margin-top: 2rem;
+}
+.hero__content {
+  border: 1px solid #DB7A4E;
+  border-radius: 2rem;
+  padding: 1.8rem 1.5rem;
+  text-align: center;
+}
+.hero__content-heading {
+  text-transform: uppercase;
+  color: #DB7A4E;
+}
+.hero__content-text, .hero__content-btn-text, .hero__input-text {
+  color: #335576;
+}
+.hero__content-btn .button {
+  margin: 1.25rem 0.5rem 1.25rem 0.5rem;
+}
+.hero__content-btn .button:after {
+  content: "";
+  height: 0.9rem;
+  width: 0.9rem;
+  top: -0.12rem;
+  background-color: white;
+  position: relative;
+  display: inline-block;
+  border: 2px solid #DB7A4E;
+  border-radius: 20%;
+}
+.hero__content-btn .button:checked:after {
+  content: "";
+  background-color: #DB7A4E;
+  transition: 0.3s;
+}
+.hero__input {
+  border: 1px solid #DB7A4E;
+  border-radius: 2rem;
+  width: 11rem;
+  padding: 0.5rem 0rem 0.5rem 0.5rem;
+}
+.hero__inputs-btn {
+  color: #FFFFFF;
+  font-size: 0.9rem;
+  background-color: #DB7A4E;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.7rem 1.2rem;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1.3rem 0rem 0rem;
+}
+.hero__inputs-btn:hover {
+  background: #da7241;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 1px;
+  padding: 0.7rem 2rem;
+  box-shadow: 6px 6px 10px #1c2f42;
+  transition: 0.3s, box-shadow 0.5s;
+}/*# sourceMappingURL=form.css.map */
