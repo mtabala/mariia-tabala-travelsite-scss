@@ -1,1 +1,45 @@
-/*# sourceMappingURL=main.css.map */
+/* Colors */
+/* Fonts */
+/* Section - Hero */
+.hero {
+  background-color: #FEFAF5;
+  display: flex;
+  margin-top: 2.2rem;
+  padding: 6.5rem 6rem 3rem 7rem;
+}
+.hero__content {
+  padding-top: 3rem;
+}
+.hero__content-heading {
+  font-size: 2.2rem;
+  margin: 0rem;
+  color: #335576;
+}
+.hero__content-text {
+  font-size: 0.9rem;
+  margin: 2.2rem 0rem 2.2rem;
+  color: #335576;
+}
+.hero__content-button {
+  color: #FFFFFF;
+  font-size: 0.9rem;
+  background-color: #DB7A4E;
+  border-radius: 25rem;
+  padding: 0.5rem 2.2rem;
+  text-decoration: none;
+  display: inline-block;
+}
+.hero__content-button:hover {
+  background: #da7241;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 1rem 2.2rem;
+  box-shadow: 6px 6px 10px #1c2f42;
+  transition: background-color 0.3s, text-transform 0.3s, font-weight 0.3s, padding 0.3s, box-shadow 0.5s;
+}
+.hero__image-img {
+  width: 27rem;
+  margin-left: 8rem;
+}
+
+/* Section - Recommendations *//*# sourceMappingURL=main.css.map */
